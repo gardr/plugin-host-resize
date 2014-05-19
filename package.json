@@ -1,0 +1,28 @@
+{
+  "name": "gardr-resize-host",
+  "version": "0.0.0",
+  "description": "Gardr plugin to resize container to content size",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gardr/resize-host.git"
+  },
+  "keywords": [
+    "gardr",
+    "gardr-plugin"
+  ],
+  "author": "FINN.no AS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gardr/resize-host/issues"
+  },
+  "homepage": "https://github.com/gardr/resize-host",
+  "devDependencies": {
+    "gardr-core-plugin": "0.0.1",
+    "sinon": "^1.9.1",
+    "mocha": "^1.19.0"
+  }
+}
