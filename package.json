@@ -1,6 +1,6 @@
 {
   "name": "gardr-resize-host",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Gardr plugin to resize container to content size",
   "main": "index.js",
   "scripts": {
