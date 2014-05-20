@@ -4,13 +4,13 @@ Gardr plugin to resize container to content size
 
 ## Install
 
-    npm install gardr-resize-host --save
+    npm install gardr-plugin-host-resize --save
 
 ## Use
 In your host bundle file:
 
     var gardrHost = require('gardr-host');
-    var resize = require('gardr-resize-host');
+    var resize = require('gardr-plugin-host-resize');
 
     gardrHost.plugin(resize);
 

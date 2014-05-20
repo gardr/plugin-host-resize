@@ -1,5 +1,5 @@
 {
-  "name": "gardr-resize-host",
+  "name": "gardr-plugin-host-resize",
   "version": "0.0.1",
   "description": "Gardr plugin to resize container to content size",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gardr/resize-host.git"
+    "url": "https://github.com/gardr/plugin-host-resize.git"
   },
   "keywords": [
     "gardr",
@@ -17,9 +17,9 @@
   "author": "FINN.no AS",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gardr/resize-host/issues"
+    "url": "https://github.com/gardr/plugin-host-resize/issues"
   },
-  "homepage": "https://github.com/gardr/resize-host",
+  "homepage": "https://github.com/gardr/plugin-host-resize",
   "devDependencies": {
     "gardr-core-plugin": "0.0.1",
     "sinon": "^1.9.1",
