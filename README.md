@@ -16,10 +16,11 @@ In your host bundle file:
 
     module.exports = gardrHost;
 	
-Add resizeHorizontal = true to item.options to enable resize for a position
+Add resizeHorizontal = true and/or resizeVertical = true to item.options to enable resize for a position
 
 	var gardr = gardrHost(...);
 	gardr.queue('position', {
 		resizeHorizontal: true,
+		resizeVertical: true,
 		...
 	});
