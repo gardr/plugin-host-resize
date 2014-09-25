@@ -1,5 +1,10 @@
 # Gardr Resize Plugin
 
+[![Build Status](https://api.travis-ci.org/gardr/plugin-host-resize.png?branch=master)](https://travis-ci.org/gardr/plugin-host-resize)
+[![Dependency Status](https://david-dm.org/gardr/plugin-host-resize.png)](https://david-dm.org/gardr/plugin-host-resize)
+[![devDependency Status](https://david-dm.org/gardr/plugin-host-resize/dev-status.png)](https://david-dm.org/gardr/plugin-host-resize#info=devDependencies)
+
+
 Gardr plugin to resize container to content size
 
 ## Install
@@ -15,7 +20,7 @@ In your host bundle file:
     gardrHost.plugin(resize);
 
     module.exports = gardrHost;
-	
+
 Add resizeHorizontal = true and/or resizeVertical = true to item.options to enable resize for a position
 
 	var gardr = gardrHost(...);
