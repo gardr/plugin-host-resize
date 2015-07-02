@@ -99,10 +99,10 @@ describe('resize-host', function () {
         assert(item.iframe.resize.calledWith(item.rendered.width, item.rendered.height), 'called with new width and height');
     });
 
-    it('shoud not resize container if items.options.disableContainerResize is true', function () {
+    it('shoud not resize container if items.options.enableContainerResize is false', function () {
         var item = mockItem();
         resize(pluginApi);
-        item.options.disableContainerResize = true;
+        item.options.enableContainerResize = false;
         item.rendered = {
             width: 120,
             height: 120
